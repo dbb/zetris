@@ -1,0 +1,4 @@
+?package(zetris):needs="text" section="Games/Tetris-like" \
+	title="Zetris" \
+	command="sh -c '/usr/games/zetris -l 5;echo;echo PRESS ENTER;read line'" \
+	hints="Text"

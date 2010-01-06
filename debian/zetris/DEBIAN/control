@@ -1,0 +1,12 @@
+Package: zetris
+Version: 0.03b
+Architecture: amd64
+Maintainer: Daniel Bolton <danielbarrettbolton@gmail.com>
+Installed-Size: 104
+Depends: libc6 (>= 2.2.5), libncurses5 (>= 5.6+20071006-3)
+Conflicts: tclassic
+Replaces: tclassic
+Section: games
+Priority: optional
+Description: Zetris is a modification of TINT that only uses the
+ Z- and S-shaped pieces.

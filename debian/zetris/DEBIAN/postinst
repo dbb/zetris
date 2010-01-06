@@ -1,0 +1,18 @@
+#!/bin/sh -e
+
+scorefile="/var/games/zetris.scores"
+
+if [ ! -e $scorefile ]
+then
+	touch $scorefile
+	chmod 0664 $scorefile
+	chown root:games $scorefile
+fi
+
+# Automatically added by dh_installmenu
+if [ "$1" = "configure" ] && [ -x "`which update-menus 2>/dev/null`" ]; then
+	update-menus
+fi
+# End automatically added section
+
+

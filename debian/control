@@ -1,0 +1,14 @@
+Source: zetris
+Section: games
+Priority: optional
+Maintainer: Daniel Bolton <danielbarrettbolton@gmail.com>
+Build-Depends: debhelper (>> 3.0.0), libncurses5-dev
+Standards-Version: 3.6.1
+
+Package: zetris
+Architecture: any
+Depends: ${shlibs:Depends}
+Replaces: tclassic
+Conflicts: tclassic
+Description: Zetris is a modification of TINT that only uses the
+ Z- and S-shaped pieces.
